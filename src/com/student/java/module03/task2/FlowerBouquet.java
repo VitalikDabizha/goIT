@@ -1,7 +1,8 @@
 package com.student.java.module03.task2;
 
-/**
- * Created by vitalik on 02.06.16.
- */
+import java.util.List;
+
 public class FlowerBouquet {
+
+    List<Flower>flowers;
 }
