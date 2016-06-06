@@ -1,17 +1,24 @@
 package com.student.java.module03.task3;
 
-
-import java.util.List;
-
 public class Instrument {
 
-    List<Instrument> instruments;
+    private String name;
 
-    public List<Instrument> getInstruments() {
-        return instruments;
+    private String model;
+
+    public String getName() {
+        return name;
     }
 
-    public void setInstruments(List<Instrument> instruments) {
-        this.instruments = instruments;
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
     }
 }
