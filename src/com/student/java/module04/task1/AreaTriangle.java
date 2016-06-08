@@ -28,7 +28,7 @@ public class AreaTriangle extends Shape {
     }
 
     @Override
-    public double geometricCalculator() {
+    public double getArea() {
         return 0.5*(a*h);
     }
 }

@@ -17,7 +17,7 @@ public class AreaСircle extends Shape {
     }
 
     @Override
-    public double geometricCalculator() {
+    public double getArea() {
         return Math.PI*(rad*rad);
     }
 

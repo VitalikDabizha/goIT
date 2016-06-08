@@ -28,7 +28,7 @@ public class AreaRectangle extends Shape {
     }
 
     @Override
-    public double geometricCalculator() {
+    public double getArea() {
         return a*b;
     }
 }
