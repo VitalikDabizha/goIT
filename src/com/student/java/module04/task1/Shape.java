@@ -1,7 +1,7 @@
 package com.student.java.module04.task1;
 
-public interface Shape {
+public abstract class Shape {
 
-    public double geometricCalculator();
+    public abstract double geometricCalculator();
 
 }

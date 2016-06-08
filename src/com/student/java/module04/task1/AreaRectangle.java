@@ -1,6 +1,6 @@
 package com.student.java.module04.task1;
 
-public class AreaRectangle implements Shape {
+public class AreaRectangle extends Shape {
 
     private double a;
 

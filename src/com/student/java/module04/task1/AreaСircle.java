@@ -1,8 +1,7 @@
 package com.student.java.module04.task1;
 
-public class AreaСircle implements Shape {
+public class AreaСircle extends Shape {
 
-    public static final double pi= 3.14;
     private float rad;
 
     public AreaСircle(float rad) {
@@ -19,7 +18,7 @@ public class AreaСircle implements Shape {
 
     @Override
     public double geometricCalculator() {
-        return pi*(rad*rad);
+        return Math.PI*(rad*rad);
     }
 
 }
