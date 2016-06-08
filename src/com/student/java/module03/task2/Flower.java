@@ -1,8 +1,9 @@
 package com.student.java.module03.task2;
 
-public class Flower {
+    public abstract class Flower {
 
     private String name;
+
     private String color;
 
     public String getName() {
